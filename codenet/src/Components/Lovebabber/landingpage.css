@@ -5,6 +5,16 @@
 header{
     background-color: aqua;
     height: 50px;
+    display: flex;
+}
+.item-left{
+    flex: 1;
+}
+.item-center{
+    flex: 1;
+}
+.item-right{
+    flex: 1;
 }
 .container-1{
     background-color:floralwhite;
