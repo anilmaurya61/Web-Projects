@@ -1,13 +1,18 @@
 import React from 'react'
+import InstagramIcon from '@material-ui/icons/Instagram';
+import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
 import './landingpage.css';
 
 export default function landingpage() {
     return (
         <>
+            <img className="big-circle" src="./img/big-eclipse.svg" alt="" />
+            <img className="mid-circle" src="./img/mid-eclipse.svg" alt="" />
+            <img className="small-circle" src="./img/small-eclipse.svg" alt="" />
             <header>
                 <div className="logo-container">
                     <img src="./img/logo.svg" alt="logo" />
-                    <h4 className="logo">CodeNet</h4>
+                    <h1 className="logo">CodeNet</h1>
                 </div>
                 <nav>
                     <ul className="nav-links">
@@ -16,8 +21,8 @@ export default function landingpage() {
                         <li><a className="nav-link" href="#">Faraz Sheet</a></li>
                     </ul>
                 </nav>
-                <div className="cart">
-                    <img src="./img/cart.svg" alt="cart" />
+                <div className="account">
+                         <AccountCircleRoundedIcon/>
                 </div>
             </header>
 
@@ -48,13 +53,11 @@ export default function landingpage() {
                     <img src="./img/arrow-right.svg" alt="" />
                 </div>
 
-                <img className="big-circle" src="./img/big-eclipse.svg" alt="" />
-                <img className="mid-circle" src="./img/mid-eclipse.svg" alt="" />
-                <img className="small-circle" src="./img/small-eclipse.svg" alt="" />
+
             </main>
 
             {/* ............................................................. */}
-
+            <div className="services"></div>
             <div class="teamWrapper">
                 <div class="container">
                     <h1 align="center">Our Team</h1>
@@ -63,8 +66,8 @@ export default function landingpage() {
                         <div class="colmun">
                             <div class="teamcol">
                                 <div class="teamcolinner">
-                                    <div class="avatar"><img src="https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpgjpg" alt="Member" /></div>
-                                    <div class="member-name"> <h2 align="center">Ketty Leroux</h2> </div>
+
+                                    <div class="member-name"> <h2 align="center">Love Babber sheet</h2> </div>
                                     <div class="member-info"><p align="center">Lorem Ipsum is a simply dummy text of the printing and typesetting industry.</p></div>
                                     <div class="member-mail"> <p align="center"> <a href="mailto:kettyleroux@gmail.com">kettyleroux@gmail.com</a> </p> </div>
                                     <div class="member-social">
@@ -80,8 +83,8 @@ export default function landingpage() {
                         <div class="colmun">
                             <div class="teamcol">
                                 <div class="teamcolinner">
-                                    <div class="avatar"><img src="https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpg" alt="Member" /></div>
-                                    <div class="member-name"> <h2 align="center">Ketty Leroux</h2> </div>
+
+                                    <div class="member-name"> <h2 align="center">Striver Sheet</h2> </div>
                                     <div class="member-info"><p align="center">Lorem Ipsum is a simply dummy text of the printing and typesetting industry.</p></div>
                                     <div class="member-mail"> <p align="center"> <a href="mailto:kettyleroux@gmail.com">kettyleroux@gmail.com</a> </p> </div>
                                     <div class="member-social">
@@ -97,8 +100,8 @@ export default function landingpage() {
                         <div class="colmun">
                             <div class="teamcol">
                                 <div class="teamcolinner">
-                                    <div class="avatar"><img src="https://i.ibb.co/6nQP7Wm/pexels-vinicius-wiesehofer-1130626-1.jpg" alt="Member" /></div>
-                                    <div class="member-name"> <h2 align="center">Ketty Leroux</h2> </div>
+
+                                    <div class="member-name"> <h2 align="center">Faraz Sheet</h2> </div>
                                     <div class="member-info"><p align="center">Lorem Ipsum is a simply dummy text of the printing and typesetting industry.</p></div>
                                     <div class="member-mail"> <p align="center"> <a href="mailto:kettyleroux@gmail.com">kettyleroux@gmail.com</a> </p> </div>
                                     <div class="member-social">
@@ -117,9 +120,12 @@ export default function landingpage() {
 
             {/* ..................footer................................ */}
 
+            <div className="event"></div>
+
             <div class="footer-basic">
                 <footer>
-                    <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+
+                    <div class="social"><a href="#"><i class="icon "><InstagramIcon /></i></a><a href="#"><i class="icon"></i></a><a href="#"><i class="icon"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
                     <ul class="list-inline">
                         <li class="list-inline-item"><a href="#">Home</a></li>
                         <li class="list-inline-item"><a href="#">Services</a></li>
@@ -127,7 +133,7 @@ export default function landingpage() {
                         <li class="list-inline-item"><a href="#">Terms</a></li>
                         <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
                     </ul>
-                    <p class="copyright">Company Name © 2018</p>
+                    <p class="copyright">CodeNet © 2021</p>
                 </footer>
             </div>
         </>
